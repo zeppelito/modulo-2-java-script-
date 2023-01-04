@@ -1,0 +1,22 @@
+var Controle = {
+    collor: "black",
+    marca: "panasonic",
+    btr_nmr: 2,
+}
+
+var a = [1, 5, 8]
+
+function listar_Objetos() {
+    for (var o in Controle) {
+        console.log(o + ":" + Controll[o]);
+    }
+}
+
+function listar_Array() {
+    for (var s of a) {
+        console.log(s)
+    }
+}
+
+listar_Objetos()
+listar_Array()
